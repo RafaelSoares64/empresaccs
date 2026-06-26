@@ -35,7 +35,7 @@ header{
 }
 
 .logo h1{
-    color:#00d4ff;
+    color:#ff0000;
 }
 
 nav ul{
@@ -53,7 +53,7 @@ nav a{
 }
 
 nav a:hover{
-    background:#00d4ff;
+    background:#b413ff;
     color:#000;
 }
 
@@ -86,10 +86,17 @@ nav a:hover{
     margin-bottom:30px;
 }
 
+
+.hero-box img{
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
 .botao{
     display:inline-block;
     padding:15px 30px;
-    background:#00d4ff;
+    background:#ff00ea;
     color:#000;
     text-decoration:none;
     border-radius:10px;
@@ -116,7 +123,7 @@ nav a:hover{
 .caixa h2{
     text-align:center;
     margin-bottom:40px;
-    color:#00d4ff;
+    color:#26004681;
 }
 
 /* CARDS */
@@ -188,12 +195,12 @@ textarea{
     border:none;
     border-radius:10px;
     background:rgba(255,255,255,0.2);
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 input::placeholder,
 textarea::placeholder{
-    color:#ddd;
+    color:#ff0000;
 }
 
 button{
@@ -237,4 +244,30 @@ footer{
         font-size:2rem;
     }
 
+}
+.texto-imagem{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.texto-imagem img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    border-radius:12px;
+    flex-shrink:0;
+}
+
+@media(max-width:768px){
+    .texto-imagem{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .texto-imagem img{
+        width:180px;
+        height:auto;
+    }
 }
