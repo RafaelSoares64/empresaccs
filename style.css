@@ -35,7 +35,7 @@ header{
 }
 
 .logo h1{
-    color:#ff0000;
+    color:#ae4aff;
 }
 
 nav ul{
@@ -53,7 +53,7 @@ nav a{
 }
 
 nav a:hover{
-    background:#b413ff;
+    background:#ae00ff;
     color:#000;
 }
 
